@@ -16,10 +16,8 @@ For full report of this project, please visit <a href="https://github.com/Juanto
     <li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
     <li><a href="#data-analytics">Data Analytics</a></li>
-    <li><a href="#model-selection">Model Selection</a></li>
-    <li><a href="#explainable-and-interpretable-machine-learning">Explainable and Interpretable Machine Learning</a></li>
-    <li><a href="#preprocessing-new-dataset">Preprocessing New Dataset</a></li>
-    <li><a href="#prediction-result">Prediction Result</a></li>
+    <li><a href="#modeling">Modeling</a></li>
+    <li><a href="#model-visualization">Model Visualization</a></li>
     <li><a href="#conclusion">Conclusion and Recommendation</a></li>
     <li><a href="#contributors">Contributors</a></li>
   </ol>
@@ -65,61 +63,46 @@ At this stage, to enrich the information from the existing data, a feature engin
 ## Exploratory Data Analysis
 At this stage, a brief analysis of the data will be carried out, as follows:
 * Distribution Data
-* Normal Test
-* Data Cardinalities
-* Identify Missing Values
 * Data Correlation
+![Correlation](Img/corr.png)
 
-![correlation](Image/Correlation.png)
+* Outliers Test
+![Boxplot](Img/boxplot.png)
 
 ## Data Preprocessing
 At this stage, data preparation and processing will be carried out before being used as a data model, as follows:
-* Casting Data Type
-* Encode
-* Categorization
-* Extract Date Feature
+* Outliers Isolation
+* Scalling
 * Splitting
 
 ## Data Analytics
 At this stage, another information analysis will be carried out, as follows:
-* Information Abseenteism in Company <br>
-![Information Abseenteism in Company](Image/Dashboard_1.png) <br>
-* Personal Information of Employee <br>
-![Personal Information of Employee](Image/Dashboard_2.png) <br>
-* Daily Work <br>
-![Daily Work](Image/Dashboard_3.png) <br>
-You can also see full dashboard of analysis at <a href="https://public.tableau.com/app/profile/juan1691/viz/AnalysisAbseenteismProject/AnalysisAbseenteism">Analysis Tableau</a>.  
+* Orders Information <br>
+![Orders Information](Img/db1.png) <br>
+* Transaction Activity <br>
+![Transaction Activity](Img/db22.png) <br>
+* Transaction Summary <br>
+![Transaction Summary](Img/db3.png) <br>
+* Transaction History <br>
+![Transaction History](Img/db4.png) <br>
+You can also see full dashboard of analysis at <a href="https://public.tableau.com/app/profile/juan1691/viz/UberTransactionAnalysis/UberTransactionsAnalysis?publish=yes">Analysis Tableau</a>.  
 
-## Model Selection
-At this stage will be done making and optimizing the machine learning model, as follows:
-* Model Benchmark (Linear Regression, Ridge, KNN Regression, Lasso, and Decision Tree Regression)
+## Modeling
+At this stage will be done making and optimizing the deep learning model, as follows:
+* Comparison dataset(Without outliers isolation & With outliers isolation)
+* Adjust model
 * Hyperparameter Tuning
-For summary can see on picture below:
 
-## Explainable and Interpretable Machine Learning
-At this stage there will be an explanation in the decision making of the machine learning model, in the following ways:
-* Feature Importance
-* SHAP <br>
-![SHAP](Image/SHAP.png)
+## Model Visualization
+At this stage there will be an explanation in the decision making of deep learning model, in the following ways:
+* Summary Model
 
-## Preprocessing New Dataset
-At this stage, preprocessing stage will apply to new data set which want to predict
-
-## Prediction Result
-At this stage, new data set will predict with selected model before, in the following ways:
-* Predict New Dataset
-  * For view the result of prediction, please visit <a href="https://github.com/Juantonios1/Performance-Improvement-Absenteeism-at-Work/blob/main/Data_set/Absenteeism_data_predict.csv">Prediction Dataset</a>.  
-
-![prediction](Image/prediction.png)
-
-* Import to CSV File
-* Prediction Analysis
-  * For view the full analysis of prediction dataset, please visit <a href="https://public.tableau.com/app/profile/juan1691/viz/PredictedAbsenteeismProject/PredictedInformation">Prediction Tableau</a>.  
+![Summary Model](Img/model_summary.png)
 
 ## Conclusion 
 We conclude our result and give recommendation based on it
 * Summary Model <br>
-![Daily Work](Image/summary.png) <br>
+![Model Summary](Img/summary.png)  <br>
 * Business Insight
   * January & February have the less average abseenteism beside that March, April, and June have most average abseenteism time. Maybe in this month spirit of employee is down and they use the reason to absent
   * BMI and Age dont have specific pattern with Abseenteism
