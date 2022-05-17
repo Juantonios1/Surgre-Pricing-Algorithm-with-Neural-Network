@@ -1,6 +1,6 @@
 # Surgre-Pricing-Algorithm-with-Neural-Network
 
-In this project, i want to share how problem of car availbility on Uber can be solved using surge pricing. To apply surge pricing, i use data analytics to describe the pattern using Tableau and predict fare amount each customer based on particular condition using Neural Network regression method (Deep Learning).
+On this project, i want to share how problem of car availbility on Uber can be solved using surge pricing. To apply surge pricing, i use data analytics to describe the pattern using Tableau and predict fare amount each customer based on particular condition using Neural Network regression method (Deep Learning).
 ![absent](Img/uber.jpg)
 <br>
 For full report of this project, please visit <a href="https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb">Surge pricing algorithm with neural network</a>.
@@ -12,6 +12,7 @@ For full report of this project, please visit <a href="https://github.com/Juanto
   <ol>
     <li><a href="#business-background">Business Background</a></li>
     <li><a href="#data-understanding">Data Understanding</a></li>
+    <li><a href="#feature-engineering">Feature Engineering</a></li>
     <li><a href="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
     <li><a href="#data-preprocessing">Data Preprocessing</a></li>
     <li><a href="#data-analytics">Data Analytics</a></li>
@@ -47,6 +48,20 @@ The goals of this analysis are to know the price per transaction according to pa
 | Dropoff Longitude  | The longitude where the meter was disengaged.                    |
 | Dropoff Latitude   | The latitude where the meter was disengaged.                     |
                                                                                                    
+## Feature Engineering
+At this stage, to enrich the information from the existing data, a feature engineering process can be carried out, with results:
+| Feature      	     | Description                                                      |
+|--------------------|------------------------------------------------------------------|
+| Year        	     | The year when the meter was engaged.                          	  |
+| Month              | The month when the meter was engaged..                           |
+| Day                | The day when the meter was engaged.                              |
+| Day Name           | Day name when the meter was engaged.                             |
+| Hour               | The hour when the meter was engaged..                            |
+| Minute             | The minute when the meter was engaged.                           |
+| Week               | The week when the meter was engaged.                             |
+| Weekend            | Determine the day is weekend or weekday.                         |
+| Distance           | The distance from start point to end point(in km).               |
+
 ## Exploratory Data Analysis
 At this stage, a brief analysis of the data will be carried out, as follows:
 * Distribution Data
