@@ -1,4 +1,4 @@
-# Surgre-Pricing-Algorithm-with-Neural-Network
+# Surgre Pricing Algorithm with Neural Network
 
 On this project, i want to share how problem of car availbility on Uber can be solved using surge pricing. To apply surge pricing, i use data analytics to describe the pattern using Tableau and predict fare amount each customer based on particular condition using Neural Network regression method (Deep Learning).
 ![absent](Img/uber.jpg)
