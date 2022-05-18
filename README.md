@@ -3,7 +3,7 @@
 On this project, i want to share how problem of car availbility on Uber can be solved using surge pricing. To apply surge pricing, i use data analytics to describe the pattern using Tableau and predict fare amount each customer based on particular condition using Neural Network regression method (Deep Learning).
 ![absent](Img/uber.jpg)
 <br>
-For full report of this project, please visit <a href="https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb">Surge pricing algorithm with neural network</a>.
+For full report of this project, please visit <a href="[https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb)">Surge pricing algorithm with neural network</a>.
 
 ## Summary Process
 <!-- TABLE OF CONTENTS -->
@@ -104,15 +104,12 @@ We conclude our result and give recommendation based on it
 * Summary Model <br>
 ![Model Summary](Img/summary.png)  <br>
 * Business Insight
-  * January & February have the less average abseenteism beside that March, April, and June have most average abseenteism time. Maybe in this month spirit of employee is down and they use the reason to absent
-  * BMI and Age dont have specific pattern with Abseenteism
-  * Employee with 2 Children and 1 or 2 pets have more abseenteism time then the others
+  * With this algorithm, Company can determine fare amount not only based on distance, but can be day or time so the price more suitable for consumer, driver, and company.
 * Recommendation
-  * The company need to mantain employee spirit. They can make some event to keep employee spirit like gathering or eat together for every division
-  * For every director or supervisor can reduce the workload for every senior employee so they can mantain their health and prevent absenteeism time
-  * Every supervisor need to remind their employee to do their task even they need to look after their children or pet.
+  * Need a model to describe what factor which affect fare amount.
+  * Add more feature to make model more accureate (City, Holiday, Event, etc)
  
-For full report of this project, please visit <a href="https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb">Absenteeism at Work</a>.
+For full report of this project, please visit <a href="[https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb)">Absenteeism at Work</a>.
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
