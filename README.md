@@ -3,7 +3,7 @@
 On this project, i want to share how problem of car availbility on Uber can be solved using surge pricing. To apply surge pricing, i use data analytics to describe the pattern using Tableau and predict fare amount each customer based on particular condition using Neural Network regression method (Deep Learning).
 ![absent](Img/uber.jpg)
 <br>
-For full report of this project, please visit <a href="[https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb)">Surge pricing algorithm with neural network</a>.
+For full report of this project, please visit <a href="https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb">Surge pricing algorithm with neural network</a>.
 
 ## Summary Process
 <!-- TABLE OF CONTENTS -->
@@ -105,12 +105,16 @@ We conclude our result and give recommendation based on it
 ![Model Summary](Img/summary.png)  <br>
 * Business Insight
   * With this algorithm, Company can determine fare amount not only based on distance, but can be day or time so the price more suitable for consumer, driver, and company.
+  * With data analytics, we found:
+    * 2012 have the most transaction than others years.
+    * 2013 have the most revenue than others years.
+    * There is no difference between weekday and weekend
+    * Saturday have the most transactions than others days.company.
 * Recommendation
-  * Need a model to describe what factor which affect fare amount.
-  * Add more feature to make model more accureate (City, Holiday, Event, etc)
+  * With deep learning, we cant determine how model works, so we need model to describe what factor which have more effect tp fare amount.
+  * More feature like city, holiday, event, etc can help to make model more accureate.
  
-For full report of this project, please visit <a href="[https://github.com/Juantonios1/Absenteeism-Analysis-to-Improve-Work-Performance/blob/main/Absenteeism%20Analysis%20ipynb/Absenteeism%20Analysis%20to%20Improve%20Work%20Performance.ipynb](https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb)">Absenteeism at Work</a>.
+For full report of this project, please visit <a href="https://github.com/Juantonios1/Surgre-Pricing-Algorithm-with-Neural-Network/blob/main/Uber%20Analysis%20Ipynb/Uber%20Fare%20Analysis%20Final.ipynb">Absenteeism at Work</a>.
 
 ## Contributors:
 Juan Antonio Suwardi - antonio.juan.suwardi@gmail.com  
-
